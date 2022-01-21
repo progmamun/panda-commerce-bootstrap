@@ -16,3 +16,6 @@ body {
   color: #000;
   box-sizing: border-box;
 }
+.carousel-item:last-child {
+  background-color: #feeae9;
+}
