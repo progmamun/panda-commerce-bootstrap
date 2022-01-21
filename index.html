@@ -28,8 +28,11 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div
+            class="collapse navbar-collapse d-flex justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -47,7 +50,7 @@
         </div>
       </nav>
       <!-- img slider start  -->
-      <section class="container bg-info bg-gradient">
+      <section class="container bg-info bg-gradient rounded my-5">
         <div
           id="carouselExampleControls"
           class="carousel slide"
@@ -142,14 +145,29 @@
       <!-- catagories section start -->
       <section class="container my-5">
         <div class="row g-2">
-          <div class="col-lg-4">
-            <div class="p-3 border bg-light">Custom column padding</div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div
+              class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded"
+            >
+              <h1 class="text-white">Watch</h1>
+              <img src="assets/img/categories/watch.png" alt="watch" />
+            </div>
           </div>
-          <div class="col-lg-4">
-            <div class="p-3 border bg-light">Custom column padding</div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div
+              class="p-3 border bg-success d-flex align-items-center justify-content-between rounded"
+            >
+              <h1 class="text-white">Shoes</h1>
+              <img src="assets/img/categories/shoes.png" alt="watch" />
+            </div>
           </div>
-          <div class="col-lg-4">
-            <div class="p-3 border bg-light">Custom column padding</div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div
+              class="p-3 border bg-info d-flex align-items-center justify-content-between rounded"
+            >
+              <h1 class="text-white">Bag</h1>
+              <img src="assets/img/categories/bag.png" alt="watch" />
+            </div>
           </div>
         </div>
       </section>
